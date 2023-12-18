@@ -102,7 +102,7 @@ def searchByCountry(phonebook: ContactList):
 
     while True:
         showMenu("cc", inline=3)
-        choice = int(input("Enter choice {}: ".format(len(selected_countries) + 1)))
+        choice = int(input("\nEnter choice {}: ".format(len(selected_countries) + 1)))
 
         if choice == 0:
             break
